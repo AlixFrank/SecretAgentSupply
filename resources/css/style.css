@@ -25,14 +25,15 @@ h1{
     text-transform: uppercase;
 }
 
-
-/*Header section*/
-
-.banner{
+.container{
     display: flex;
 }
 
+
+/*Header section*/
+
 #top{
+    align-items: center;
 }
 
 .logo img{
@@ -75,14 +76,12 @@ main{
     width: 960px;
 }
 
-.container{
-    display: flex;
+.grid{
     justify-content: space-between;
     margin: 3rem 0;
 }
 
 .item{
-    border: 4px solid black;
     width: 30%;
 }
 
@@ -90,25 +89,38 @@ main{
     display: flex;
     height: 13rem;
     align-items: center;
+    border: 4px solid black;
     justify-content: center;
 }
 
 .image img{
-    height: 9rem;
+    max-width: 9rem;
 }
 
 .legend{
     text-align: center;
-    padding: 0.5rem auto;
+    padding: 0.5rem;
 }
 
 .info{
+    justify-content: space-between;
     margin-bottom: 4rem;
 }
 
 .box{
     width: 35%;
-    padding: 1rem auto 1rem 2rem;
+    padding: 1rem 2rem;
 }
 
+
 /*Footer section*/
+
+footer{
+    height: 5rem;
+    background-color: black;
+}
+
+.copyright{
+    text-align: left;
+    align-content: center;
+}
