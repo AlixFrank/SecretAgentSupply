@@ -6,8 +6,8 @@ html{
 
 body{
     font-family: Helvetica;
-    width: 960px;
-    margin: 0 auto;
+    /*width: 960px;*/
+    /*margin: 0 auto;*/
 }
 
 h2{
@@ -29,6 +29,8 @@ h1{
 
 .container{
     display: flex;
+    width: 960px;
+    margin: 0 auto;
 }
 
 
@@ -68,15 +70,18 @@ h1{
 nav{
     background-color: firebrick;
     color: white;
-    justify-content: space-between;
     padding: 0.75rem 0;
+}
+
+.nav{
+    justify-content: space-between;
 }
 
 /*Main section*/
 
 .grid{
     justify-content: space-between;
-    margin: 3rem 0;
+    margin: 3rem auto;
 }
 
 .item{
@@ -107,6 +112,10 @@ nav{
 
 .box{
     width: 35%;
+    /*text-align: left;*/
+}
+
+.info-text{
     padding: 1rem 2rem;
 }
 
