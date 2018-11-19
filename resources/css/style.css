@@ -50,7 +50,6 @@ h1{
     background-position: center;
     background-size: cover;
     height: 25rem;
-    width: 100%;
 }
 
 .arrivals{
@@ -71,6 +70,10 @@ nav{
 
 .nav{
     justify-content: space-between;
+}
+
+.menu{
+    display: none;
 }
 
 /*Main section*/
@@ -125,4 +128,74 @@ footer{
 
 .copyright{
     text-align: left;
+}
+
+
+/*Media questies section*/
+@media only screen and (max-width: 1024px){
+    h2{
+        font-size: 0.8rem;
+    }
+
+    h1{
+        font-size: 1.8rem;
+    }
+
+    .menu{
+        display: visible;
+    }
+
+    .list{
+        display: none;
+    }
+
+    .glasses{
+        display: none;
+    }
+
+    .item{
+        width: 47%;
+    }
+}
+
+@media only screen and (max-width: 470px){
+    h2{
+        font-size: 0.77rem;
+    }
+
+    h1{
+        font-size: 1rem;
+    }
+
+    #main{
+        height: 15rem;
+    }
+
+    .arrivals{
+        width: 100%;
+        padding-left: 2rem;
+        padding-top: 1rem;
+        position: relative;
+        top: 10rem;
+    }
+
+    .glasses{
+        display: none;
+    }
+
+    .watch{
+        display: none;
+    }
+
+    .item{
+        width: 90%;
+    }
+
+    .info{
+        display: block;
+    }
+
+    .copyright{
+        text-align: center;
+    }
 }
